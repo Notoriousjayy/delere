@@ -1,14 +1,14 @@
-### API Security
+# API Security
 
-#### Secure API Development
+## Secure API Development
 
 
 
 Main Idea
 
-### API Security
+# API Security
 
-#### Secure API Development
+## Secure API Development
 
 
 
@@ -112,7 +112,7 @@ Content-Security-Policy: default-src 'none'; frame-ancestors 'none'; sandbox
 
 		○ Regularly re-test with “weird” inputs (quotes, long strings, mismatched media types).
 
-#### Securing The Natter API
+## Securing The Natter API
 
 
 
@@ -216,7 +216,7 @@ Main Idea
 
 		○ Member-add rule that avoids privilege escalation.
 
-#### OAuth2 and OpenID Connect
+## OAuth2 and OpenID Connect
 
 
 
@@ -360,7 +360,7 @@ Main Idea
 
 		○ Weak redirect URI strategy (open redirects, unclaimed schemes).
 
-#### Modern Token-Based Authentication
+## Modern Token-Based Authentication
 
 
 
@@ -478,7 +478,7 @@ Main Idea
 
 		○ Keep CORS tight (allow specific origins) unless you truly need public access.
 
-#### Self-Contained Tokens and JWTs
+## Self-Contained Tokens and JWTs
 
 
 
@@ -606,7 +606,7 @@ Main Idea
 
 
 
-#### Identity-Based Access Control
+## Identity-Based Access Control
 
 
 
@@ -712,7 +712,7 @@ Combine rule outcomes (e.g., default-permit with deny overrides, or safer defaul
 
 
 
-#### Capability-Based Security And Macaroons
+## Capability-Based Security And Macaroons
 
 
 
@@ -802,7 +802,7 @@ Main Idea
 
 
 
-#### Securing Service-To-Service APIs
+## Securing Service-To-Service APIs
 
 
 
@@ -948,7 +948,7 @@ Main Idea
 
 
 
-#### Microservices APIs in Kubernetes
+## Microservices APIs in Kubernetes
 
 
 
@@ -1094,7 +1094,7 @@ Main Idea
 
 
 
-#### Session Cookie Authentication
+## Session Cookie Authentication
 
 
 
@@ -1198,7 +1198,7 @@ Main Idea
 
 		○ You want automatic cookie handling + browser protections (Secure/HttpOnly/SameSite).
 
-#### What is API Security?
+## What is API Security?
 
 
 
@@ -1312,7 +1312,7 @@ Main Idea
 
 		○ Revisit the model regularly; update tests and controls.
 
-#### Securing IoT Communications
+## Securing IoT Communications
 
 
 
@@ -1438,7 +1438,7 @@ Main Idea
 
 
 
-#### Securing IoT APIs
+## Securing IoT APIs
 
 
 
@@ -1496,9 +1496,9 @@ Main Ideas
 
 		○ Idempotency helps but isn’t sufficient by itself.
 
-### API Documentation
+# API Documentation
 
-#### API Foundations
+## API Foundations
 
 
 
@@ -1602,7 +1602,7 @@ Types of APIs
 
 				□ Improves speed and performance.
 
-#### API Documentation
+## API Documentation
 
 
 
@@ -1706,7 +1706,7 @@ Importance of API Documentation
 
 
 
-#### Components of API Documentation
+## Components of API Documentation
 
 
 
@@ -1844,7 +1844,7 @@ Request and Response
 
 
 
-#### Integrating Documentation with API Tools
+## Integrating Documentation with API Tools
 
 
 
@@ -2022,7 +2022,7 @@ Confluence
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 		○ Use precondition headers with ETags:
+# 		○ Use precondition headers with ETags:
 
 			§ Update: If-Matches (reject with 412 if the stored ETag changed).
 
@@ -2098,9 +2098,9 @@ Confluence
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### API Testing
+# API Testing
 
-#### Understanding Web Services and APIs
+## Understanding Web Services and APIs
 
 
 
@@ -2208,7 +2208,7 @@ Types of APIs
 
 				□ GraphQL = flexibility and precision for modern data-driven apps.
 
-#### Getting Started with API Testing
+## Getting Started with API Testing
 
 
 
@@ -2260,7 +2260,7 @@ Risk of using Services and APIs
 
 			§ Even if not doing full penetration testing, testers should remain aware of security concerns.
 
-#### API Authorization
+## API Authorization
 
 
 
@@ -2494,7 +2494,7 @@ Setting up Oauth
 
 			§ Access Token: Credential allowing the app to interact with the API.
 
-#### Additional API Testing Consideration
+## Additional API Testing Consideration
 
 
 
@@ -2694,9 +2694,9 @@ Security Testing
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Burp Suite
+# Burp Suite
 
-#### Burp Suite Basics
+## Burp Suite Basics
 
 
 
@@ -3008,7 +3008,7 @@ Setting Up Additional Targets
 
 
 
-#### Scanning
+## Scanning
 
 
 
@@ -3230,7 +3230,7 @@ Finding Missing Content
 
 				□ Inspect HTTP history for the full picture.
 
-#### Man in the Middle
+## Man in the Middle
 
 
 
@@ -3542,7 +3542,7 @@ Injecting Commands into Messages
 
 
 
-#### Being an Intruder
+## Being an Intruder
 
 
 
@@ -3754,7 +3754,7 @@ The Four Intruders
 
 
 
-#### Extensions
+## Extensions
 
 
 
@@ -3812,9 +3812,9 @@ Using C02 to integrate SQLMap
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Dynamic Application Security Testing
+## Dynamic Application Security Testing
 
-#### Security Testing in QA
+## Security Testing in QA
 
 
 
@@ -4134,7 +4134,7 @@ OWASP Testing Guide
 
 
 
-#### Assessing Deployed Apps
+## Assessing Deployed Apps
 
 
 
@@ -4620,7 +4620,7 @@ DevSecOps
 
 
 
-#### Web App Pen Testing
+## Web App Pen Testing
 
 
 
@@ -5118,7 +5118,7 @@ Purple Teaming
 
 
 
-#### Testing for the OWASP Top Ten
+## Testing for the OWASP Top Ten
 
 
 
@@ -5946,9 +5946,9 @@ A10: Server-Side Request Forgery (SSRF)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Penetration Testing
+# Penetration Testing
 
-#### What is Pen Testing?
+## What is Pen Testing?
 
 
 
@@ -6144,7 +6144,7 @@ The MITRE ATT\&CK Repository
 
 
 
-#### Pen Testing Tools
+## Pen Testing Tools
 
 
 
@@ -6726,7 +6726,7 @@ Analyzer Active Directory with BloodHound
 
 
 
-#### Bash Scripting
+## Bash Scripting
 
 
 
@@ -6914,7 +6914,7 @@ Using Functions in Bash
 
 
 
-#### Python Scripting
+## Python Scripting
 
 
 
@@ -7398,7 +7398,7 @@ Leveraging OpenAI for testing
 
 
 
-#### Kali and Metasploit
+## Kali and Metasploit
 
 
 
@@ -7796,7 +7796,7 @@ Scan Target with GVM
 
 
 
-#### Web Testing
+## Web Testing
 
 
 
@@ -8174,7 +8174,7 @@ Web Server Penetration using SQLmap
 
 
 
-#### Understand Exploit Code
+## Understand Exploit Code
 
 
 
@@ -8618,9 +8618,9 @@ Find Exploit Code
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Security Testing Essential
+# Security Testing Essential
 
-#### Understanding Security Assessments
+## Understanding Security Assessments
 
 
 
@@ -9140,7 +9140,7 @@ The Security Assessment Lifecycle
 
 			§ Shifts focus from incident response to business as usual, by staying ahead of attackers.
 
-#### Your Testing Environment
+## Your Testing Environment
 
 
 
@@ -9670,7 +9670,7 @@ Prowler
 
 
 
-#### Planning Your Assessment
+## Planning Your Assessment
 
 
 
@@ -9984,7 +9984,7 @@ Advanced Assessments Tools
 
 
 
-#### Review Techniques
+## Review Techniques
 
 
 
@@ -10434,7 +10434,7 @@ File Integrity Checking
 
 
 
-#### Identifying Your Targets
+## Identifying Your Targets
 
 
 
@@ -10852,7 +10852,7 @@ Wireless Testing Process
 
 
 
-#### Vulnerability Validation
+## Vulnerability Validation
 
 
 
@@ -11158,7 +11158,7 @@ Social Engineering
 
 
 
-#### Additional Considerations
+## Additional Considerations
 
 
 
@@ -11462,7 +11462,7 @@ Delivering Your Report
 
 			§ Only then mark the assessment as complete.
 
-#### Additional Resources
+## Additional Resources
 
 
 
@@ -11540,9 +11540,9 @@ Affordable, community-run conferences.
 
 
 
-### Static Application Security Testing (SAST)
+# Static Application Security Testing (SAST)
 
-#### Leading Practices
+## Leading Practices
 
 
 
@@ -12268,7 +12268,7 @@ Preparing Your Checklist
 
 
 
-#### Security Documentation
+## Security Documentation
 
 
 
@@ -12766,7 +12766,7 @@ OWASP ASVS
 
 
 
-#### Source Code Security Reviews
+## Source Code Security Reviews
 
 
 
@@ -13244,7 +13244,7 @@ Code Review Metrics
 
 
 
-#### Static Testing for the OWASP Top 10
+## Static Testing for the OWASP Top 10
 
 
 
@@ -14064,9 +14064,9 @@ A10: Server-Side Request Forgery
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Test Automation
+# Test Automation
 
-#### Test Types
+## Test Types
 
 
 
@@ -14378,7 +14378,7 @@ UI Test
 
 
 
-#### How to Approach Automation
+## How to Approach Automation
 
 
 
@@ -14670,7 +14670,7 @@ Follow Test Design Patterns
 
 
 
-#### Testing Tools
+## Testing Tools
 
 
 
@@ -14874,7 +14874,7 @@ Test Results
 
 
 
-#### Decide What to Automate
+## Decide What to Automate
 
 
 
@@ -15108,7 +15108,7 @@ Select What to Automate
 
 
 
-#### Adopt Test Automation
+## Adopt Test Automation
 
 
 
@@ -15472,7 +15472,7 @@ Content-Security-Policy: default-src 'none'; frame-ancestors 'none'; sandbox
 
 		○ Regularly re-test with “weird” inputs (quotes, long strings, mismatched media types).
 
-#### Securing The Natter API
+## Securing The Natter API
 
 
 
@@ -15576,7 +15576,7 @@ Main Idea
 
 		○ Member-add rule that avoids privilege escalation.
 
-#### OAuth2 and OpenID Connect
+## OAuth2 and OpenID Connect
 
 
 
@@ -15720,7 +15720,7 @@ Main Idea
 
 		○ Weak redirect URI strategy (open redirects, unclaimed schemes).
 
-#### Modern Token-Based Authentication
+## Modern Token-Based Authentication
 
 
 
@@ -15838,7 +15838,7 @@ Main Idea
 
 		○ Keep CORS tight (allow specific origins) unless you truly need public access.
 
-#### Self-Contained Tokens and JWTs
+## Self-Contained Tokens and JWTs
 
 
 
@@ -15966,7 +15966,7 @@ Main Idea
 
 
 
-#### Identity-Based Access Control
+## Identity-Based Access Control
 
 
 
@@ -16072,7 +16072,7 @@ Combine rule outcomes (e.g., default-permit with deny overrides, or safer defaul
 
 
 
-#### Capability-Based Security And Macaroons
+## Capability-Based Security And Macaroons
 
 
 
@@ -16162,7 +16162,7 @@ Main Idea
 
 
 
-#### Securing Service-To-Service APIs
+## Securing Service-To-Service APIs
 
 
 
@@ -16308,7 +16308,7 @@ Main Idea
 
 
 
-#### Microservices APIs in Kubernetes
+## Microservices APIs in Kubernetes
 
 
 
@@ -16454,7 +16454,7 @@ Main Idea
 
 
 
-#### Session Cookie Authentication
+## Session Cookie Authentication
 
 
 
@@ -16558,7 +16558,7 @@ Main Idea
 
 		○ You want automatic cookie handling + browser protections (Secure/HttpOnly/SameSite).
 
-#### What is API Security?
+## What is API Security?
 
 
 
@@ -16672,7 +16672,7 @@ Main Idea
 
 		○ Revisit the model regularly; update tests and controls.
 
-#### Securing IoT Communications
+## Securing IoT Communications
 
 
 
@@ -16798,7 +16798,7 @@ Main Idea
 
 
 
-#### Securing IoT APIs
+## Securing IoT APIs
 
 
 
@@ -16856,9 +16856,9 @@ Main Ideas
 
 		○ Idempotency helps but isn’t sufficient by itself.
 
-### API Documentation
+# API Documentation
 
-#### API Foundations
+## API Foundations
 
 
 
@@ -16962,7 +16962,7 @@ Types of APIs
 
 				□ Improves speed and performance.
 
-#### API Documentation
+## API Documentation
 
 
 
@@ -17066,7 +17066,7 @@ Importance of API Documentation
 
 
 
-#### Components of API Documentation
+## Components of API Documentation
 
 
 
@@ -17204,7 +17204,7 @@ Request and Response
 
 
 
-#### Integrating Documentation with API Tools
+## Integrating Documentation with API Tools
 
 
 
@@ -17382,7 +17382,7 @@ Confluence
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 		○ Use precondition headers with ETags:
+# 		○ Use precondition headers with ETags:
 
 			§ Update: If-Matches (reject with 412 if the stored ETag changed).
 
@@ -17458,9 +17458,9 @@ Confluence
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### API Testing
+# API Testing
 
-#### Understanding Web Services and APIs
+## Understanding Web Services and APIs
 
 
 
@@ -17568,7 +17568,7 @@ Types of APIs
 
 				□ GraphQL = flexibility and precision for modern data-driven apps.
 
-#### Getting Started with API Testing
+## Getting Started with API Testing
 
 
 
@@ -17620,7 +17620,7 @@ Risk of using Services and APIs
 
 			§ Even if not doing full penetration testing, testers should remain aware of security concerns.
 
-#### API Authorization
+## API Authorization
 
 
 
@@ -17854,7 +17854,7 @@ Setting up Oauth
 
 			§ Access Token: Credential allowing the app to interact with the API.
 
-#### Additional API Testing Consideration
+## Additional API Testing Consideration
 
 
 
@@ -18054,9 +18054,9 @@ Security Testing
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Burp Suite
+# Burp Suite
 
-#### Burp Suite Basics
+## Burp Suite Basics
 
 
 
@@ -18368,7 +18368,7 @@ Setting Up Additional Targets
 
 
 
-#### Scanning
+## Scanning
 
 
 
@@ -18590,7 +18590,7 @@ Finding Missing Content
 
 				□ Inspect HTTP history for the full picture.
 
-#### Man in the Middle
+## Man in the Middle
 
 
 
@@ -18902,7 +18902,7 @@ Injecting Commands into Messages
 
 
 
-#### Being an Intruder
+## Being an Intruder
 
 
 
@@ -19114,7 +19114,7 @@ The Four Intruders
 
 
 
-#### Extensions
+## Extensions
 
 
 
@@ -19172,9 +19172,9 @@ Using C02 to integrate SQLMap
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Dynamic Application Security Testing
+## Dynamic Application Security Testing
 
-#### Security Testing in QA
+## Security Testing in QA
 
 
 
@@ -19494,7 +19494,7 @@ OWASP Testing Guide
 
 
 
-#### Assessing Deployed Apps
+## Assessing Deployed Apps
 
 
 
@@ -19980,7 +19980,7 @@ DevSecOps
 
 
 
-#### Web App Pen Testing
+## Web App Pen Testing
 
 
 
@@ -20478,7 +20478,7 @@ Purple Teaming
 
 
 
-#### Testing for the OWASP Top Ten
+## Testing for the OWASP Top Ten
 
 
 
@@ -21306,9 +21306,9 @@ A10: Server-Side Request Forgery (SSRF)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Penetration Testing
+# Penetration Testing
 
-#### What is Pen Testing?
+## What is Pen Testing?
 
 
 
@@ -21504,7 +21504,7 @@ The MITRE ATT\&CK Repository
 
 
 
-#### Pen Testing Tools
+## Pen Testing Tools
 
 
 
@@ -22086,7 +22086,7 @@ Analyzer Active Directory with BloodHound
 
 
 
-#### Bash Scripting
+## Bash Scripting
 
 
 
@@ -22274,7 +22274,7 @@ Using Functions in Bash
 
 
 
-#### Python Scripting
+## Python Scripting
 
 
 
@@ -22758,7 +22758,7 @@ Leveraging OpenAI for testing
 
 
 
-#### Kali and Metasploit
+## Kali and Metasploit
 
 
 
@@ -23156,7 +23156,7 @@ Scan Target with GVM
 
 
 
-#### Web Testing
+## Web Testing
 
 
 
@@ -23534,7 +23534,7 @@ Web Server Penetration using SQLmap
 
 
 
-#### Understand Exploit Code
+## Understand Exploit Code
 
 
 
@@ -23978,9 +23978,9 @@ Find Exploit Code
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Security Testing Essential
+# Security Testing Essential
 
-#### Understanding Security Assessments
+## Understanding Security Assessments
 
 
 
@@ -24500,7 +24500,7 @@ The Security Assessment Lifecycle
 
 			§ Shifts focus from incident response to business as usual, by staying ahead of attackers.
 
-#### Your Testing Environment
+## Your Testing Environment
 
 
 
@@ -25030,7 +25030,7 @@ Prowler
 
 
 
-#### Planning Your Assessment
+## Planning Your Assessment
 
 
 
@@ -25344,7 +25344,7 @@ Advanced Assessments Tools
 
 
 
-#### Review Techniques
+## Review Techniques
 
 
 
@@ -25794,7 +25794,7 @@ File Integrity Checking
 
 
 
-#### Identifying Your Targets
+## Identifying Your Targets
 
 
 
@@ -26212,7 +26212,7 @@ Wireless Testing Process
 
 
 
-#### Vulnerability Validation
+## Vulnerability Validation
 
 
 
@@ -26518,7 +26518,7 @@ Social Engineering
 
 
 
-#### Additional Considerations
+## Additional Considerations
 
 
 
@@ -26822,7 +26822,7 @@ Delivering Your Report
 
 			§ Only then mark the assessment as complete.
 
-#### Additional Resources
+## Additional Resources
 
 
 
@@ -26900,9 +26900,9 @@ Affordable, community-run conferences.
 
 
 
-### Static Application Security Testing (SAST)
+# Static Application Security Testing (SAST)
 
-#### Leading Practices
+## Leading Practices
 
 
 
@@ -27628,7 +27628,7 @@ Preparing Your Checklist
 
 
 
-#### Security Documentation
+## Security Documentation
 
 
 
@@ -28126,7 +28126,7 @@ OWASP ASVS
 
 
 
-#### Source Code Security Reviews
+## Source Code Security Reviews
 
 
 
@@ -28604,7 +28604,7 @@ Code Review Metrics
 
 
 
-#### Static Testing for the OWASP Top 10
+## Static Testing for the OWASP Top 10
 
 
 
@@ -29424,9 +29424,9 @@ A10: Server-Side Request Forgery
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Test Automation
+# Test Automation
 
-#### Test Types
+## Test Types
 
 
 
@@ -29738,7 +29738,7 @@ UI Test
 
 
 
-#### How to Approach Automation
+## How to Approach Automation
 
 
 
@@ -30030,7 +30030,7 @@ Follow Test Design Patterns
 
 
 
-#### Testing Tools
+## Testing Tools
 
 
 
@@ -30234,7 +30234,7 @@ Test Results
 
 
 
-#### Decide What to Automate
+## Decide What to Automate
 
 
 
@@ -30468,7 +30468,7 @@ Select What to Automate
 
 
 
-#### Adopt Test Automation
+## Adopt Test Automation
 
 
 
